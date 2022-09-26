@@ -10,7 +10,7 @@ const Nav = () => {
                     <ul>
                         {
                             menuLinksData.map((link) =>
-                            <li><a className={`icon ${link.class}`} href={link.href}><span>{link.text}</span></a></li>
+                                <li><a className={`icon ${link.class}`} href={link.href}><span>{link.text}</span></a></li>
                        )
                      }
 
